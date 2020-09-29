@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="inner-tittle">
+        <h1>Calculator</h1>
+      </div>
+      <p class="entered-value" id="check"></p>
+      <br />
+      <br />
+      <div class="execution">
+        <div class="numbers">
+          <div class="first-row">
+            <button class="one" onclick="addMe('1')">1</button>
+            <button class="two" onclick="addMe('2')">2</button>
+            <button class="three" onclick="addMe('3')">3</button>
+          </div>
+          <div class="second-row">
+            <button class="four" onclick="addMe('4')">4</button>
+            <button class="five" onclick="addMe('5')">5</button>
+            <button class="six" onclick="addMe('6')">6</button>
+          </div>
+          <div class="third-row">
+            <button class="seven" onclick="addMe('7')">7</button>
+            <button class="eight" onclick="addMe('8')">8</button>
+            <button class="nine" onclick="addMe('9')">9</button>
+          </div>
+          <div class="fourth-row">
+            <button class="zero" onclick="addMe('0')">0</button>
+          </div>
+          <div class="equal">
+            <button class="calculation" onclick="calculate()">=</button>
+          </div>
+        </div>
+        <div class="operation">
+          <div class="addition">
+            <button onclick="addMe('+')">+</button>
+          </div>
+          <div class="substraction">
+            <button onclick="addMe('-')">-</button>
+          </div>
+          <div class="division">
+            <button onclick="addMe('/')">/</button>
+          </div>
+          <div class="multiplication">
+            <button onclick="addMe('*')">*</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr />
+
+    <marquee
+      ><h3><b>N:B:</b> I can calculate only two number! :)</h3></marquee
+    >
+
+    <script src="./index.js"></script>
+  </body>
+</html>
