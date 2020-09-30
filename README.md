@@ -9,4 +9,4 @@
 	- Erasing typo.
 	- Exponential.
 
-** N:B: ** Give any suggestion to
+**N:B:** Give any suggestion to
