@@ -1,0 +1,104 @@
+body {
+  background-color: bisque;
+}
+
+.container {
+  height: 500px;
+  width: 400px;
+  margin: 0px auto;
+  margin-top: 40px;
+  background-color: darkgray;
+  text-align: center;
+  border: 10px inset;
+}
+
+.container .inner-tittle {
+  color: rgba(255, 17, 0, 0.829);
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.entered-value {
+  height: 30px;
+  width: 200px;
+  margin: 0px auto;
+  border: 1px solid;
+  padding-top: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.execution {
+  height: 300px;
+  width: 400px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+button {
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  background-color: thistle;
+}
+
+.numbers {
+  margin-left: 70px;
+  height: 200px;
+  float: left;
+  width: 150px;
+  border: 1px solid;
+}
+.first-row {
+  margin: 5px;
+  padding: 5px;
+}
+
+.second-row {
+  margin: 5px;
+  padding: 5px;
+}
+
+.third-row {
+  margin: 5px;
+  padding: 5px;
+}
+
+.operation {
+  width: 100px;
+  height: 200px;
+  float: left;
+  border: 1px solid;
+}
+
+.addition {
+  padding: 5px;
+  margin: 5px;
+}
+
+.substraction {
+  padding: 5px;
+  margin: 5px;
+}
+
+.division {
+  padding: 5px;
+  margin: 5px;
+}
+
+.multiplication {
+  padding: 5px;
+  margin: 5px;
+}
+
+.equal {
+  height: 50px;
+  width: 252px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.calculation {
+  width: 250px;
+  font-size: 30px;
+}
