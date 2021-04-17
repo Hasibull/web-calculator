@@ -40,6 +40,7 @@ button {
   width: 35px;
   font-size: 20px;
   background-color: thistle;
+  cursor: pointer;
 }
 
 .numbers {
